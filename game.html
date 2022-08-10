@@ -4,46 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic Tac Toe jQuery</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
 </head>
 <body>
-    <h1>Tic Tac Toe</h1>
+    <div class="container text-center">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    
 
-    <div.message>
+    <div class="message">
         <h3></h3>
     </div>
 
-    <div.turn>
+    <div class="turn">
 
     </div>
    
-    <table>
-        <tr>
-            <td.item1></td>
-            <td.item2></td>
-            <td.item3></td>
+    <table class="container">
+        <tr class="row">
+            <td class='item1 col'>  </td>
+            <td class='item2 col'>  </td>
+            <td class='item3 col'> </td>
         </tr>
-        <tr>
-            <td.item4></td>
-            <td.item5></td>
-            <td.item6></td>
+        <tr class="row">
+            <td class='item4 col'></td>
+            <td class='item5 col'></td>
+            <td class='item6 col'></td>
         </tr>
-        <tr>
-            <td.item7></td>
-            <td.item8></td>
-            <td.item9></td>
+        <tr class="row">
+            <td class='item7 col'></td>
+            <td class='item8 col'></td>
+            <td class='item9 col'></td>
         </tr>
     </table>
 
     <br>
+    <div class="container">
+        <input id="reset" type="button" value="Reset">
+    </div>
+    
 
-    <input id="reset" type="button" value="Reset">
-
-
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="game.js"></script>
     <script src="game.css"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
 </body>
 </html>
